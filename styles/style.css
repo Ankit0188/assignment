@@ -5,6 +5,7 @@
 .top {
   margin-right: 160px;
   margin-left: 160px;
+  margin-bottom: 0;
   background-image: linear-gradient(lightgray, #fff);
   box-shadow: 20px 0px 20px 20px lightblue;
 }
@@ -13,6 +14,7 @@
   height: 808px;
   flex-shrink: 0;
   background-image: url("../images/banner/banner3.png");
+  margin-bottom: 50px;
 }
 .first-headline {
   width: 525px;
@@ -49,9 +51,41 @@
   margin-left: 1210px;
   color: #005fac;
   text-align: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.middle-order {
+  margin-top: 0;
+  margin-left: 160px;
+  width: 1600px;
+  height: 3229px;
+  background-color: #fff;
+  display: flex;
+}
+.image {
+  margin-left: 100px;
+}
+.second-headline {
+  width: 288px;
+  margin-left: 200px;
+  margin-top: 195px;
+  margin-bottom: 24px;
+  color: var(--dark-01, #151414);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.second-paragraph{
+    width: 416px;
+    margin-left: 200px;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: work-sans;
 }
