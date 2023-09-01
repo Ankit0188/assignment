@@ -135,12 +135,13 @@
   height: 3229px;
   background: #fff;
   display: flex;
-  gap: 100px;
+  gap: 50px;
   justify-content: center;
 }
-.i-style{
+.i-style {
   margin-bottom: 10px;
-  margin-left: 60px;
+  margin-left: 80px;
+  padding-left: 30px;
 }
 .icon-header {
   display: flex;
@@ -154,15 +155,18 @@
   line-height: normal;
   margin-top: 0;
   margin-bottom: 10px;
-  padding-left: 20px;
+  margin-left: 15px;
+  padding-left: 70px;
   justify-content: center;
 }
-.i-paragraph{
+.i-paragraph {
   color: var(--Dark-03, #737272);
-text-align: center;
-font-family: Work Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 70px;
+  margin-left: 15px;
 }
